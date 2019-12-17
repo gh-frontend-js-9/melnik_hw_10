@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Currency converter</title>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <h1>Конвертер валют</h1>
+    <form action="#">
+      <select id="fromCurrencySelector" class="select"></select>
+      <select id="toCurrencySelector" class="select"></select>
+      <input type="number" min="1" id="amount" required>
+      <button type="submit" id="submBtn">Обчислить</button>
+      <p id="result"></p>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
